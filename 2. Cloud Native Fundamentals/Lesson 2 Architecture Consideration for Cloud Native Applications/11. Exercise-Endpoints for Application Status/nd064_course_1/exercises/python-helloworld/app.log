@@ -1,0 +1,21 @@
+2021-06-19 19:55:14,460 ,  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-19 19:55:19,686 , status endpoint was reached
+2021-06-19 19:55:19,688 , 127.0.0.1 - - [19/Jun/2021 19:55:19] "GET /status HTTP/1.1" 200 -
+2021-06-19 20:07:45,270 ,  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-19 20:07:51,887 , metrics endpoint was reached
+2021-06-19 20:07:51,888 , 127.0.0.1 - - [19/Jun/2021 20:07:51] "GET /metrics HTTP/1.1" 200 -
+2021-06-19 20:07:59,726 , root endpoint was reached
+2021-06-19 20:07:59,726 , 127.0.0.1 - - [19/Jun/2021 20:07:59] "GET / HTTP/1.1" 200 -
+2021-06-19 20:08:06,544 , status endpoint was reached
+2021-06-19 20:08:06,544 , 127.0.0.1 - - [19/Jun/2021 20:08:06] "GET /status HTTP/1.1" 200 -
+2021-06-19 20:08:15,096 , metrics endpoint was reached
+2021-06-19 20:08:15,097 , 127.0.0.1 - - [19/Jun/2021 20:08:15] "GET /metrics HTTP/1.1" 200 -
+2021-06-20 07:56:50,308 ,  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-20 07:56:57,235 , metrics endpoint was reached
+2021-06-20 07:56:57,236 , 127.0.0.1 - - [20/Jun/2021 07:56:57] "GET /metrics HTTP/1.1" 200 -
+2021-06-20 07:57:01,267 , root endpoint was reached
+2021-06-20 07:57:01,267 , 127.0.0.1 - - [20/Jun/2021 07:57:01] "GET / HTTP/1.1" 200 -
+2021-06-20 07:57:06,100 , status endpoint was reached
+2021-06-20 07:57:06,100 , 127.0.0.1 - - [20/Jun/2021 07:57:06] "GET /status HTTP/1.1" 200 -
+2021-06-20 07:57:13,391 , metrics endpoint was reached
+2021-06-20 07:57:13,391 , 127.0.0.1 - - [20/Jun/2021 07:57:13] "GET /metrics HTTP/1.1" 200 -
