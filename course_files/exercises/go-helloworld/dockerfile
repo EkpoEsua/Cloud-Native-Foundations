@@ -1,0 +1,18 @@
+FROM golang:alpine
+
+LABEL maintainer="Esua Ekpo"
+
+WORKDIR /go/src/app
+
+ADD . .
+
+#use this to offset some errors about go module stuff
+#not being found so have to disable the search for a go module
+#before compiling the go file
+RUN go env -w GO111MODULE=auto
+
+RUN go build -o helloworld
+
+CMD [ "./helloworld" ]
+
+EXPOSE 6111
