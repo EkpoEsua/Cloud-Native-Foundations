@@ -8,4 +8,5 @@ A Udacity course on designing and implementing applications using the principles
 * Containerize an application using docker, creating an docker image, runing the image and deploying it to docker hub.
 * Create a kubernetes cluster on a virtual machine created using vagrant.
 * Configuring and deploying a Kurbenetes cluster using k3s.
-* Understanding kubernetes resources and implementing the concepts of Deployments, Replicaset and rolling out strategies, for deploying verisons of an application in order to ensure availability, resilence and scaling.
+* Understanding kubernetes resources and implementing the concepts of Deployments, Replicaset, Services, ConfigMaps, secrets and rolling out strategies, for deploying verisons of an application in order to ensure availability, resilence and scaling.
+* Deployment of a kubernetes cluster using an imperative method or declarative method, using manifests in yaml.
