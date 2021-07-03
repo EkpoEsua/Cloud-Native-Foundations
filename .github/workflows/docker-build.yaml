@@ -6,9 +6,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: check out repository and change working directory
-        uses: actions/checkout@v2
-        run: cd course_files/solutions/python-helloworld
+
+      - uses: actions/checkout@v2
+      
+      - run: cd course_files/solutions/python-helloworld
 
       - name: Docker Setup Buildx
         uses: docker/setup-buildx-action@v1.5.0
