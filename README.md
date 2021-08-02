@@ -11,7 +11,8 @@ A Udacity course on designing and implementing applications using the principles
 * Understanding kubernetes resources and implementing the concepts of Deployments, Replicaset and rolling out strategies, for deploying verisons of an application in order to ensure availability, resilence and scaling.
 * Creation of kubernetes resources using the imperative and/or declarative methods, the later making use of manifest files to aid automation of resource creation in a production evironment.
 * A Hands on understanding of Cloud Foundry open source PaaS.
-* The fundamentals of COntinuous Integration (CI) and use of Github actions CI tool to implement a CI pipeline, that builds and tests a commit, then creates an executable artifact, a docker image and pushes it to docker hub.
+* The fundamentals of Continuous Integration (CI) and use of Github actions CI tool to implement a CI pipeline, that builds and tests a commit, then creates an executable artifact, a docker image and pushes it to docker hub.
 * Continuous Deployment (CD) using ArgoCD, to a kubernetes cluster.
+* Use of Helm Configuration manager to efficiently and scalably handle the manifest files for multiple kubernetes deployment environments.
 
-Tools used in the course include `Python` `Flask` `Docker` `Kubernetes`
+Tools used in the course include `Python` `Flask` `Docker` `Kubernetes` `ArfoCD` `Helm`

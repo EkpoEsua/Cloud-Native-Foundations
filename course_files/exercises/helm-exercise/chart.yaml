@@ -1,0 +1,10 @@
+apiVersion: v1
+name: nginx-deployment
+description: Deploy an nginx image
+keywords:
+- nginx
+- alpine
+version: 1.0.0
+maintainers:
+- name: Esua
+  email: esuaekpo@yahoo.com

@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  version: {{ .values.image.tag }}
+kind: ConfigMap
+metadata:
+  name: {{ .values.image.name }}-{{ .values.image.tag }}
+  namespace: {{ .values.namespace.name }}
